@@ -1,4 +1,5 @@
 import keyboard
+import time
 from mouseMove import coloredAll
 from settings import DELAY, STEP_CHANGE_DELAY
 
@@ -16,12 +17,14 @@ def mainLoop():
 
     while isAppRun:
         while isScriptRun:
-            coloredAll()
-            isScriptRun = False
+            rez = coloredAll()
+            if rez == -1:
+                isScriptRun = False
 
 def endApp():
+    global isAppRun, isScriptRun
     print("Sayonara")
-    global isAppRun
+    isScriptRun = False
     isAppRun = False
 
 def pauseApp():

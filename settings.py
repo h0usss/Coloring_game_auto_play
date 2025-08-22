@@ -16,5 +16,5 @@ WIN_NAME = ["Coloring Game",
             "Coloring Game - Girls 2",
             "Coloring Game 5",]
 
-DELAY = 0.1
+DELAY = 0.01
 STEP_CHANGE_DELAY = 0.01

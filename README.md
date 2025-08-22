@@ -5,7 +5,7 @@
 
   A script that automatically plays [Coloring Game][ColoringGame] from [L. Stotch][LStotch] — style mini-games by analyzing pixel data and simulating user input.
 
-  *P.S. At the moment, the script has been tested only on Little City and 2 parts. If it doesn't work for others, let me know. On 08/21/2025, there is no automatic image rewind function. Therefore, after painting the canvas, you need to move the image to a blank sheet yourself and press C*
+  *P.S. At the moment, the script has been tested only on Little City and 2 parts. If it doesn't work for others, let me know. *
 
   <img align="center" src=".sourceReadme/preview.gif" alt="Preview" width="600"/>
 </div>
@@ -18,7 +18,7 @@
       <a href="#🧠-about-the-project">About The Project</a>
       <ul>
         <li><a href="#💭-inspiration">Inspiration</a></li>
-        <li><a href="#📌-TODO">TODO</a></li>
+        <li><a href="#👀-tests">Tests</a></li>
         <li><a href="#🔧-built-with">Built With</a></li>
       </ul>
     </li>
@@ -44,9 +44,19 @@ This project is a script for automatically completing a series of games [Colorin
 
 I wanted to do this project after I started going through huge levels in Little City. I wanted get all the achievements, but the game itself was no longer so much fun to draw every pixel.
 
-### 📌 TODO
-- Automatic movement on the canvas
-- Switching between levels
+### 👀 Tests
+
+The tests were performed taking into account the field search at the beginning of the program.
+
+|  №  |     Name    |     JDE     |    Script    |   % Faster   |
+|:---:|:------------|:------------|:-------------|:------------:|
+|  1  | CGLCFREE.1  |  35s        |  14s         |   60.00%     |
+|  2  | CGLCFREE.8  |  4:51s      |  1.07s       |   76.98%     |
+|  3  | CGLCFREE.15 |  58:20s     |  10.14s      |   82.46%     |
+|  4  | CGLC№2.1    |  50s        |  20s         |   60.00%     |
+|  5  | CGLC№2.8    |  6:43s      |  1:50s       |   73.49%     |
+|  6  | CGLC№2.15   |  1:33:20s   |  14:38s      |   84.32%     |
+
 
 ### 🔧 Built With
 
@@ -55,8 +65,6 @@ I wanted to do this project after I started going through huge levels in Little 
 </a>
 
 <p align="right">( <a href="#readme-top">to top</a> | <a href="#contents">to contents</a> )</p>
-
-
 
 <!-- GETTING STARTED -->
 ## ✨ Getting Started
@@ -104,6 +112,11 @@ I wanted to do this project after I started going through huge levels in Little 
     python main.py
     ```
 
+7. Click `C` in Game.
+
+8. Wait 5-15s while the canvas is being searched.
+
+9. Enjoy!
 
 ## ⌨️ Controls
 Press `C` to start or pause the work.<br>
