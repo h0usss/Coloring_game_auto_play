@@ -51,8 +51,8 @@ The tests were performed taking into account the field search at the beginning o
 |  №  |     Name    |     JDE     |    Script    |   % Faster   |
 |:---:|:------------|:------------|:-------------|:------------:|
 |  1  | CGLCFREE.1  |  35s        |  14s         |   60.00%     |
-|  2  | CGLCFREE.8  |  4:51s      |  1.07s       |   76.98%     |
-|  3  | CGLCFREE.15 |  58:20s     |  10.14s      |   82.46%     |
+|  2  | CGLCFREE.8  |  4:51s      |  1:07s       |   76.98%     |
+|  3  | CGLCFREE.15 |  58:20s     |  10:14s      |   82.46%     |
 |  4  | CGLC№2.1    |  50s        |  20s         |   60.00%     |
 |  5  | CGLC№2.8    |  6:43s      |  1:50s       |   73.49%     |
 |  6  | CGLC№2.15   |  1:33:20s   |  14:38s      |   84.32%     |
